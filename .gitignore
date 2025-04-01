@@ -1,3 +1,18 @@
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+**/build/
+flutter_export_environment.sh
+pubspec.lock
+
+# Android
+.gradle/
+local.properties
+.idea/
 *.iml
 .gradle
 /local.properties
@@ -13,3 +28,29 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Flutter/ephemeral/
+.DS_Store
+
+# macOS
+macos/Flutter/ephemeral/
+macos/.symlinks/
+.DS_Store
+
+# VS Code
+.vscode/
+.history/
+
+# Miscellaneous
+*.log
+*.lock
+*.swp
+*.swo
+*.DS_Store
+.idea/
