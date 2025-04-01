@@ -27,7 +27,7 @@ This app aims to facilitate testing and debugging print-related functionalities 
 - **NDK** (if using native code for IPP).  
 
  
- ## 🛠️ ![Read the Documentation]( https://drive.google.com/file/d/1YBwNsdDVSojUsYf2G_VNnU9_9w3t4Ad2/view?usp=sharing)
+ ## 🛠️ [Read the Documentation]( https://drive.google.com/file/d/1YBwNsdDVSojUsYf2G_VNnU9_9w3t4Ad2/view?usp=sharing)
 
 
 
