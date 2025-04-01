@@ -26,14 +26,18 @@ This app aims to facilitate testing and debugging print-related functionalities 
 - **jIPP** (optional) for IPP handling in pure Kotlin.  
 - **NDK** (if using native code for IPP).  
 
+#### 🛠️ ** ![Read the Documentation] ( https://drive.google.com/file/d/1YBwNsdDVSojUsYf2G_VNnU9_9w3t4Ad2/view?usp=sharing) **  
+
  
- 
+
+
 <details>
   <summary><h2>Getting Started</h2></summary>
 
+
 1. Clone the repository:  
    ```
-   git clone https://github.com/username/VirtualPrinterApp.git
+   git clone https://github.com/username/VirtualPrinter.git
    ```
 2. Open the project in Android Studio.  
 3. Build and run on an Android device.  
