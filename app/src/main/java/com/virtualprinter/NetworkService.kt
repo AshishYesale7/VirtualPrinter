@@ -10,7 +10,7 @@ class NetworkService(private val context: Context) {
     private var nsdManager: NsdManager? = null
     private var registrationListener: NsdManager.RegistrationListener? = null
 
-    fun startBroadcast(serviceName: String, serviceType: String = "_ipp._tcp.", port: Int = 631) {
+    fun startBroadcast(serviceName: String, serviceType: String = "_ipp._tcp.", port: Int = 3000) {
         nsdManager = context.getSystemService(Context.NSD_SERVICE) as NsdManager
 
         val serviceInfo = NsdServiceInfo().apply {
