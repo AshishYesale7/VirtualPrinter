@@ -1,4 +1,5 @@
 ---
+# VirtualPrinterApplication
 
 ### **Description**  
 The **Virtual Printer App** is an Android application that emulates a network printer. It allows developers and testers to simulate printing operations without needing physical printer hardware. 
@@ -26,7 +27,21 @@ This app aims to facilitate testing and debugging print-related functionalities 
 - **jIPP** (optional) for IPP handling in pure Kotlin.  
 - **NDK** (if using native code for IPP).  
 
+
  
+## Requested Additions
+
+- ✅ Acts as a virtual IPP (Internet Printing Protocol) printer on Android devices.  
+- ✅ Working Android Application 
+- ✅ Network Service Discovery
+- ⬜ **HIGH PRIORITY** - Supports configuration of printer attributes and capabilities.  
+- ⬜ **HIGH PRIORITY** - End-to-end testing support for different print settings and print job responses.  
+- ⬜ Printer Manager API
+- ⬜ Works on various Android form factors, including phones, foldables, and tablets.  
+ 
+
+
+
  ## 🛠️ [Read the Documentation]( https://drive.google.com/file/d/1YBwNsdDVSojUsYf2G_VNnU9_9w3t4Ad2/view?usp=sharing)
 
 
