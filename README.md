@@ -27,8 +27,8 @@ This app aims to facilitate testing and debugging print-related functionalities 
 - **jIPP** (optional) for IPP handling in pure Kotlin.  
 - **NDK** (if using native code for IPP).  
 
- 
-### Drafted Architecture and Design Elements:
+ <details>
+  <summary><h2> Drafted Architecture and Design Elements: </h2></summary>
 
 1. **High-Level Application Architecture:**
    - **Service-Oriented Structure:** Separation between UI components, network discovery, and the virtual print service logic.
@@ -52,6 +52,7 @@ This app aims to facilitate testing and debugging print-related functionalities 
    - A basic UI prototype that logs print job events, printer status, and allows printer config.
 
 ---
+</details>
 ![Virtual Printer Architecture](./virtual_printer_basic_architecture.png)
 
 
