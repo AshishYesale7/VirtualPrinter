@@ -53,6 +53,7 @@ This app aims to facilitate testing and debugging print-related functionalities 
 
 ---
 </details>
+
 ![Virtual Printer Architecture](./virtual_printer_basic_architecture.png)
 
 
@@ -71,7 +72,7 @@ This app aims to facilitate testing and debugging print-related functionalities 
 
 
 
- ## 🛠️ [Read the Documentation]( https://drive.google.com/file/d/1YBwNsdDVSojUsYf2G_VNnU9_9w3t4Ad2/view?usp=sharing)
+🛠 [Read the Documentation]( https://drive.google.com/file/d/1YBwNsdDVSojUsYf2G_VNnU9_9w3t4Ad2/view?usp=sharing)
 
 
 
