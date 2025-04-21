@@ -9,7 +9,7 @@ class PrinterViewModel : ViewModel() {
     val status = mutableStateOf("Idle")
 
     // Mutable state for printer name
-    var printerName = mutableStateOf("Virtual Printer")
+    var printerName = mutableStateOf("Virtual Printer (${android.os.Build.MODEL})")
 
     // Updates the printer status
     fun updateStatus(newStatus: String) {
