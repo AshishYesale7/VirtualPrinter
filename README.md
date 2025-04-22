@@ -54,22 +54,37 @@ This app aims to facilitate testing and debugging print-related functionalities 
 ---
 </details>
 
-![Virtual Printer Architecture](./virtual_printer_basic_architecture.png)
+
+ <img src="./virtual_printer_basic_architecture.png" width="180" height="300" />
+[Virtual Printer Architecture]
 
 
 
  
+For the section `## Requested Additions`, you can add **checklist-style features** that are **planned, in-progress, or completed**, particularly ones requested in the GSoC proposal or essential for a production-ready Virtual Printer Application. Here's a refined and expanded version you can use:
+
+---
+
 ## Requested Additions
 
 - ✅ Acts as a virtual IPP (Internet Printing Protocol) printer on Android devices.  
-- ✅ Working Android Application 
-- ✅ Network Service Discovery
-- ⬜ **HIGH PRIORITY** - Supports configuration of printer attributes and capabilities.  
-- ⬜ **HIGH PRIORITY** - End-to-end testing support for different print settings and print job responses.  
-- ⬜ Printer Manager API
-- ⬜ Works on various Android form factors, including phones, foldables, and tablets.  
- 
+- ✅ Working Android Application with Jetpack Compose UI.  
+- ✅ Network Service Discovery (NSD) using Android’s `NsdManager`.  
+- ⬜ **HIGH PRIORITY** - Supports configuration of printer attributes (e.g., name, location, supported formats).  
+- ⬜ **HIGH PRIORITY** - Supports reporting printer capabilities (e.g., media sizes, color modes, duplex support).  
+- ⬜ **HIGH PRIORITY** - End-to-end testing support for various print settings and job response handling.  
+- ⬜ Printer Manager API integration for job submission and print callbacks.  
+- ⬜ Parses IPP requests and returns appropriate IPP responses.  
+- ⬜ Works on various Android form factors: phones, foldables, tablets.  
+- ⬜ Flutter bridge to allow front-end reuse (optional stretch goal).  
+- ⬜ Debug logs with detailed request parsing and status codes.  
+- ⬜ Log export and sharing functionality for easier testing/reporting.  
+- ⬜ Dynamic printer start/stop controls from the UI.  
+- ⬜ UI for configuring printer name and capabilities.  
+- ⬜ Supports multiple simultaneous requests (thread-safe handling).  
+- ⬜ Handles incoming print data (e.g., PDF, images) with preview or storage.
 
+---
 
 
 🛠 [Read the Documentation]( https://drive.google.com/file/d/1YBwNsdDVSojUsYf2G_VNnU9_9w3t4Ad2/view?usp=sharing)
