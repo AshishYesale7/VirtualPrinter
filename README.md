@@ -76,7 +76,6 @@ For the section `## Requested Additions`, you can add **checklist-style features
 - ⬜ Printer Manager API integration for job submission and print callbacks.  
 - ⬜ Parses IPP requests and returns appropriate IPP responses.  
 - ⬜ Works on various Android form factors: phones, foldables, tablets.  
-- ⬜ Flutter bridge to allow front-end reuse (optional stretch goal).  
 - ⬜ Debug logs with detailed request parsing and status codes.  
 - ⬜ Log export and sharing functionality for easier testing/reporting.  
 - ⬜ Dynamic printer start/stop controls from the UI.  
